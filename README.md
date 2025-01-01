@@ -24,11 +24,13 @@ git clone https://github.com/WangGroupFDU/ILGen.git
 cd ILGen
 pip install .
 
-Usage
+---
+
+### Usage
 
 ILGen provides three core functionalities, accessible via command-line subcommands. Below are the detailed instructions for each subcommand.
 
-1. Generate Core and Skeleton Files
+## 1. Generate Core and Skeleton Files
 
 Extract core structures and skeletons from cation and anion Excel files. Input files must include columns labeled SMILES and Name.
 
