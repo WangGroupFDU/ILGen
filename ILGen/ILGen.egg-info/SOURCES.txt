@@ -1,0 +1,15 @@
+setup.py
+ILGen/__init__.py
+ILGen/cli.py
+ILGen/generate_core_fragment.py
+ILGen/generate_new_cation_anion.py
+ILGen/generate_predict_new_IL.py
+ILGen.egg-info/PKG-INFO
+ILGen.egg-info/SOURCES.txt
+ILGen.egg-info/dependency_links.txt
+ILGen.egg-info/entry_points.txt
+ILGen.egg-info/requires.txt
+ILGen.egg-info/top_level.txt
+ILGen/xgboost_model/ECW_xgb_model.joblib
+ILGen/xgboost_model/Tm_xgb_model.joblib
+ILGen/xgboost_model/conductivity_xgb_model.joblib
