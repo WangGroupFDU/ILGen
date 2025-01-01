@@ -139,6 +139,45 @@ ILGen generate_predict_new_IL \
 	•	Input files must conform to the expected format, including required columns such as SMILES and Name.
 	•	For optimal performance, ensure all dependencies are correctly installed.
 
+---
+
+# Data Sources for Machine Learning Models
+
+```bash
+cd ILGen/dataset
+```
+
+This repository includes datasets used for training machine learning models to predict properties of ionic liquids. The data covers a range of electrochemical and quantum chemical properties, which are described in detail below:
+
+## Dataset Overview
+
+### **1. Conductivity**
+- **Number of records**: 321
+- **File**: `experiment_data_IL_conductivity.csv`
+- **Description**: Experimental data measuring the ionic conductivity of ionic liquids.
+
+### **2. Melting Point**
+- **Number of records**: 1,668
+- **File**: `experiment_data_IL_melting_point.csv`
+- **Description**: Experimental data on the melting points of ionic liquids.
+
+### **3. Electrochemical Window**
+- **Number of records**: 119,802  
+  - **Cations**: 768  
+  - **Anions**: 166  
+- **File**: `IL_ECW.csv`
+- **Description**: Electrochemical window (ECW) data for ionic liquids calculated using the HOMO-LUMO method. This dataset represents combinations of successfully computed cations and anions.
+
+### **4. Cation Quantum Chemistry Data**
+- **Number of records**: 3,774  
+- **File**: `HTQC_cation.xlsx`  
+- **Description**: High-throughput quantum chemical calculations for cations.
+
+### **5. Anion Quantum Chemistry Data**
+- **Number of records**: 2,220  
+- **File**: `HTQC_anion.xlsx`  
+- **Description**: High-throughput quantum chemical calculations for anions.
+
 ## License
 
 ILGen is licensed under the MIT License. See the LICENSE file for details.
