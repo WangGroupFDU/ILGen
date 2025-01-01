@@ -38,9 +38,10 @@ Extract core structures and skeletons from cation and anion Excel files. Input f
 ILGen generate_core_fragment -c <cation_excel_file> -a <anion_excel_file>
 ```
 
-Arguments:
-	•	-c or --cation: Path to the cation Excel file (required).
-	•	-a or --anion: Path to the anion Excel file (required).
+**Arguments:**
+
+- `-c` or `--cation`: Path to the cation Excel file (required).  
+- `-a` or `--anion`: Path to the anion Excel file (required).  
 
 Example:
 
@@ -60,11 +61,12 @@ ILGen generate_new_cation_anion \
     --anion_backbone_excel <anion_backbone_file>
 ```
 
-Arguments:
-	•	--cation_core_excel: Path to the cation core file (required).
-	•	--anion_core_excel: Path to the anion core file (required).
-	•	--cation_backbone_excel: Path to the cation backbone file (required).
-	•	--anion_backbone_excel: Path to the anion backbone file (required).
+**Arguments:**
+
+- `--cation_core_excel`: Path to the cation core file (required).  
+- `--anion_core_excel`: Path to the anion core file (required).  
+- `--cation_backbone_excel`: Path to the cation backbone file (required).  
+- `--anion_backbone_excel`: Path to the anion backbone file (required).  
 
 Example:
 ```bash
@@ -88,12 +90,13 @@ ILGen generate_predict_new_IL \
     [--seed <seed>]
 ```
 
-Arguments:
-	•	--new_cation_path: Path to the new cation CSV file (required).
-	•	--new_anion_path: Path to the new anion CSV file (required).
-	•	--cation_limit: Maximum number of cations (default: 5000).
-	•	--anion_limit: Maximum number of anions (default: 300).
-	•	--seed: Random seed for reproducibility (default: 1).
+**Arguments:**
+
+- `--new_cation_path`: Path to the new cation CSV file (required).  
+- `--new_anion_path`: Path to the new anion CSV file (required).  
+- `--cation_limit`: Maximum number of cations (default: 5000).  
+- `--anion_limit`: Maximum number of anions (default: 300).  
+- `--seed`: Random seed for reproducibility (default: 1).  
 
 Example:
 
@@ -130,7 +133,7 @@ ILGen generate_predict_new_IL \
     --new_anion_path New_Anion.csv \
     --cation_limit 1000 \
     --anion_limit 100
-```bash
+```
 
 ## Notes
 	•	Input files must conform to the expected format, including required columns such as SMILES and Name.
