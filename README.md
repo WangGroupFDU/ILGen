@@ -153,7 +153,7 @@ This repository includes datasets used for training machine learning models to p
 
 ### **1. Conductivity**
 - **Number of records**: 549
-- **File**: `experiment_data_IL_conductivity.csv`
+- **File**: `filtered_ILThermo_conductivity_final.csv`
 - **Description**: Experimental data measuring the ionic conductivity of ionic liquids.
 
 ### **2. Melting Point**
