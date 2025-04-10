@@ -20,7 +20,7 @@ To install ILGen, ensure that you have Python (3.7 or higher) and pip installed.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/WangGroupFDU/ILGen.git
+git clone https://github.com/WangGroupFDU/ILGen
 cd ILGen/ILGen
 pip install .
 ```
