@@ -162,10 +162,10 @@ This repository includes datasets used for training machine learning models to p
 - **Description**: Experimental data on the melting points of ionic liquids.
 
 ### **3. Redox Potential**
-- **Number of records**: 
+- **Number of records**:  1,578 
   - **Cations**: 768  
   - **Anions**: 166  
-- **File**: `IL_ECW.csv`
+- **File**: `calculation_data_IL_ECW_IP-EA.csv`, `Cation_redox_potential.xlsx`, `Anion_redox_potential.xlsx`
 - **Description**: Redox potential data for ionic liquids calculated using the IP-EA method.
 
 ### **4. Cation Quantum Chemistry Data**
