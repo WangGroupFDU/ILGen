@@ -1,6 +1,6 @@
 # ILGen
 
-**ILGen: An Ionic Liquid Generator Based on the BRICS Algorithm**
+**Coupling AI and High-Throughput Computation for Ionic Liquids: From Molecular Generation to Application**
 
 ## Features
 
@@ -152,8 +152,8 @@ This repository includes datasets used for training machine learning models to p
 ## Dataset Overview
 
 ### **1. Conductivity**
-- **Number of records**: 321
-- **File**: `experiment_data_IL_conductivity.csv`
+- **Number of records**: 549
+- **File**: `filtered_ILThermo_conductivity_final.csv`
 - **Description**: Experimental data measuring the ionic conductivity of ionic liquids.
 
 ### **2. Melting Point**
@@ -161,12 +161,12 @@ This repository includes datasets used for training machine learning models to p
 - **File**: `experiment_data_IL_melting_point.csv`
 - **Description**: Experimental data on the melting points of ionic liquids.
 
-### **3. Electrochemical Window**
-- **Number of records**: 119,802  
+### **3. Redox Potential**
+- **Number of records**: 
   - **Cations**: 768  
   - **Anions**: 166  
 - **File**: `IL_ECW.csv`
-- **Description**: Electrochemical window (ECW) data for ionic liquids calculated using the HOMO-LUMO method. This dataset represents combinations of successfully computed cations and anions.
+- **Description**: Redox potential data for ionic liquids calculated using the IP-EA method.
 
 ### **4. Cation Quantum Chemistry Data**
 - **Number of records**: 3,774  
