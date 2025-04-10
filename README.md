@@ -1,6 +1,6 @@
 # ILGen
 
-**ILGen: An Ionic Liquid Generator Based on the BRICS Algorithm**
+**Coupling AI and High-Throughput Computation for Ionic Liquids: From Molecular Generation to Application**
 
 ## Features
 
@@ -152,7 +152,7 @@ This repository includes datasets used for training machine learning models to p
 ## Dataset Overview
 
 ### **1. Conductivity**
-- **Number of records**: 321
+- **Number of records**: 541
 - **File**: `experiment_data_IL_conductivity.csv`
 - **Description**: Experimental data measuring the ionic conductivity of ionic liquids.
 
